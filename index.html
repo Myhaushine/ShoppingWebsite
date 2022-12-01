@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee Mỹ Hậu</title>
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./iconfont/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="appshopee">
+        <div id="header">
+            <div class="grip">
+            <div class="header__navbar">
+                <ul class="header__navbar--list">
+                    <li class="header__navbar--item header--border">Mở ứng dụng trên Mỹ Hậu Shop
+                        <div class="header__sub">
+                            <div class="header__qrcode">
+                                <img src="./assets/img/qr-code.png" alt="QR code">
+                            </div>
+                            <div class="header__app">
+                                <img src="./assets/img/ggplay.png" alt="Appstore" class="header__app-rel">
+                                <img src="./assets/img/appstore.png" alt="Google play" class="header__app-rel">
+                                <img src="./assets/img/appgallery.png" alt="App Gallery" class="header__app-rel">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar--item">Kết nối</li>
+                        <a href="" class="header__navbar--item--link1 ti-facebook"></a>
+                        <a href="" class="header__navbar--item--link1 ti-instagram"></a>
+                </ul>
+
+                <ul class="header__navbar--list">
+                    <li class="header__navbar--item ti-bell">
+                       <a href="" class="header__navbar--item--link"></a>
+                        Thông báo
+                        <div class="header__notify">
+                            <div class="header__notify--heading">
+                                <h3>Thông báo mới nhận</h3>
+                            </div>
+                            <div class="header__notify--body">
+                                <ul>
+                                    <li class="header__notify--item"><a href="">
+                                        <img src="./assets/img/newyork.jpg" alt="logo" class="header__notify--item--img">
+                                        <div class="header__notify--item--dis">
+                                            <p>Xác thực đơn đặt hàng thành công của Uno</p>
+                                            <p>Xác thực đơn đặt hàng</p>
+                                        </div>
+                                    </a></li>
+                                    <li class="header__notify--item"><a href="">
+                                        <img src="./assets/img/newyork.jpg" alt="logo" class="header__notify--item--img">
+                                        <div class="header__notify--item--dis">
+                                            <p>Xác thực đơn đặt hàng thành công của Uno</p>
+                                            <p>Xác thực đơn đặt hàng</p>
+                                        </div>
+                                    </a></li>
+                                    <li class="header__notify--item"><a href="">
+                                        <img src="./assets/img/newyork.jpg" alt="logo" class="header__notify--item--img">
+                                        <div class="header__notify--item--dis">
+                                            <p>Xác thực đơn đặt hàng thành công của Uno</p>
+                                            <p>Xác thực đơn đặt hàng</p>
+                                        </div>
+                                    </a></li>
+                                    <li class="header__notify--item"><a href="">
+                                        <img src="./assets/img/newyork.jpg" alt="logo" class="header__notify--item--img">
+                                        <div class="header__notify--item--dis">
+                                            <p>Xác thực đơn đặt hàng thành công của Uno</p>
+                                            <p>Xác thực đơn đặt hàng</p>
+                                        </div>
+                                    </a></li>
+                                    <li class="header__notify--item"><a href="">
+                                        <img src="./assets/img/newyork.jpg" alt="logo" class="header__notify--item--img">
+                                        <div class="header__notify--item--dis">
+                                            <p>Xác thực đơn đặt hàng thành công của Uno</p>
+                                            <p>Xác thực đơn đặt hàng</p>
+                                        </div>
+                                    </a></li>
+                                </ul>
+                            </div>
+                            <div class="header__notify--footer">
+                                <h3>Xem tất cả thông báo</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar--item ti-info-alt">
+                        <a href="" class="header__navbar--item--link"></a>
+                        Trợ giúp
+                    </li>
+                    <li class="header__navbar--item font-strong header--border js__buttonsignup">Đăng ký</li>
+                    <li class="header__navbar--item font-strong js__buttonsignin">Đăng nhập</li>
+                </ul>
+            </div>
+        <div class="underheader">
+            <div class="header__logo">
+                <a href="#"><img src="https://storage.googleapis.com/ops-shopee-files-live/live/affiliate-blog/2019/05/logo-full-white.png" alt="Logo Shopee" style="width: 100%"></a>
+            </div>
+            <div class="header__search">
+                <div class="header__search--input">
+                    <input type="text" placeholder="Tìm kiếm" style="width: 100%; padding: 14px;border: none; border-radius: 0;" class="header__search--input11">
+                <!-- historysearch  -->
+                    <div class="historysearch__header">
+                        <p class="historysearch__header--tittle">Lịch sử tìm kiếm</p>
+                        <ul class="historysearch__header--box">
+                            <li class="historysearch__header--item"><a href="#">Kem trị mụn KlenzitC</a></li>
+                            <li class="historysearch__header--item"><a href="#">Eucerin sữa rửa mặt</a></li>
+                            <li class="historysearch__header--item"><a href="#">Dưỡng âm Facecream Sunday Beauty</a></li>
+                            <li class="historysearch__header--item"><a href="#">Kem tẩy tế bào chết Nhật</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__search--search"><i class="header__search--search-icon ti-search"></i></div>
+            </div>
+            <div class="underheader__shoppingicon">
+                <i class="underheader__shoppingicon--icon   ti-shopping-cart">
+                    <div class="underheader__shoppingicon--img-npcard">
+                        <img src="https://diyvietnam.vn/tp/T0051/images/empty-cart.png" alt="" class="shoppingicon--img">
+                        <p class="shoppingicon--dis">Chưa có sản phẩm</p>
+                    </div>
+                </i>
+            </div>
+            
+        </div>
+    </div>
+
+        <div id="container">
+            <div class="grip container__grip">
+                <div class=".grip__row container__navigation">
+                    <div class="grip__column-2">
+                        <div class="container__navigation--header ti-menu-alt">  DANH MỤC</div>
+                        <ul class="container__navigation--cover">
+                            <li class="container__navigation--item"> <a href="#"> mục sản phẩm</a></li>
+                            <li class="container__navigation--item"> <a href="#"> Thông tin cửa hàng</a></li>
+                            <li class="container__navigation--item"> <a href="#">Hỗ trợ</a> </li>
+                            <li class="container__navigation--item"> <a href="#"> Đánh giá khách hàng</a></li>
+                            <li class="container__navigation--item"> <a href="#">Lộ trình đơn hàng</a> </li>
+                            <li class="container__navigation--item"> <a href="#">Phân tích dữ liệu bán hàng</a> </li>
+                            <li class="container__navigation--item"> <a href="#">Các chương trình khuyến mãi</a> </li>
+                            <li class="container__navigation--item"> <a href="#">Tham gia Flatsale 1K</a> </li>
+                            <li class="container__navigation--item"> <a href="#"> Hỗ trợ người bán</a></li>
+                            <li class="container__navigation--item"> <a href="#"> Thoát</a></li>
+                        </ul>
+                    </div>
+                    <div class="grip__column-10">
+                    <div class="container__catologue">
+                        <div class="container__catologue__navigation">
+                            <div class="container__catologue__navigation--left">
+                                <p>Sắp xếp theo</p>
+                                <p class="container__catologue__navigation--left--button"><a href="#">Phổ biến</a> </p>
+                                <p class="container__catologue__navigation--left--button back-color-shopee"><a href="#" style="color:#fff;">Mới nhất</a> </p>
+                                <p class="container__catologue__navigation--left--button"><a href="#" >Bán chạy</a> </p>
+                                <input type="text" placeholder="Giá" class="navigation--left--search">
+                                <i class="navigation--left-down ti-angle-down"></i>
+                                <div class="navigation--left-down--box">
+                                    <ul>
+                                        <li class="ti-angle-down--price">Dưới 30,000</li>
+                                        <li class="ti-angle-down--price">30,000 - 100,000</li>
+                                        <li class="ti-angle-down--price">100,000 - 150,000</li>
+                                        <li class="ti-angle-down--price">150,000 - 250,000</li>
+                                        <li class="ti-angle-down--price">Trên 250,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <div class="container__catologue__navigation--right">
+                            <p>1/14</p>
+                            <i class="navigation--right ti-angle-left"></i>
+                            <i class="navigation--right ti-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="container__catologue__cardarea">
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://kimkieuflower.vn/content/images/thumbs/000/0000665_top-10-loai-hoa-pho-bien-duoc-chiet-xuat-thanh-nuoc-hoa.jpeg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://znews-photo.zadn.vn/w660/Uploaded/yqdxwpcww/2021_06_06/thumb_1.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://tapchilamdep.com/wp-content/uploads/2020/09/Nuoc-hoa-nam-Charme-Guility.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://kimkieuflower.vn/content/images/thumbs/000/0000665_top-10-loai-hoa-pho-bien-duoc-chiet-xuat-thanh-nuoc-hoa.jpeg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://mifashop.net/wp-content/uploads/2020/09/nuoc-hoa-gold-bond-no-9-100ml-mifashop-01.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://salt.tikicdn.com/ts/product/0a/8f/7d/c4f121dff18091577298570717e04356.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://kimkieuflower.vn/content/images/thumbs/000/0000665_top-10-loai-hoa-pho-bien-duoc-chiet-xuat-thanh-nuoc-hoa.jpeg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://file.hstatic.net/1000025647/file/nuoc-hoa-chanel-chanxe-edp_467dbb3f1d8c4ae29e69b2db4e6d3081_1024x1024.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="http://product.hstatic.net/1000025647/product/nuoc-hoa-miss-dior-absolutely-bloming_1024x1024.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://www.elleman.vn/wp-content/uploads/2019/01/15/n%C6%B0%E1%BB%9Bc-hoa-nam-2019-elle-man-5.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://farm.com.vn/wp-content/uploads/2020/04/nuoc-hoa-lua-euphoria-30ml-2055-2.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                        </div>
+                        <div class="container__catologue__card">
+                            <div class="container__catologue__card--header"></div>
+                            <img src="https://saigonscent.com/wp-content/uploads/2015/01/nuoc-hoa-very-sexy.jpg" alt="" class="container__catologue__card--img">
+                            <div class="container__catologue__card--content">
+                                <h3 class="container__catologue__card--content-head">Nước hoa Lavender</h3>
+                                <p class="container__catologue__card--content-dis">Giá bán: 120,000 - 150,000</p>
+                            </div>
+                      
+                        </div>
+                
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+
+        </div>
+    </div>
+    <div class="modasignup js__modasignup">
+        <div class="modalcard">
+            <div><i class="ti-close ti-close--button js__closesignup"></i></div>
+            <div class="modaheader">
+                <h3 class="modaheader-item mainhead">ĐĂNG KÝ</h3>
+                <h3 class="modaheader-item subhead">ĐĂNG NHẬP
+                    </h3>
+                
+            </div>
+            <div class="modacontainer">
+                <div class="modacontainer__input">
+                   <p class=".modacontainer__input1"> <input type="text" placeholder="Email/Số điên thoại/Tên đăng nhập" style="width: 100%; padding: 10px 0"></p>
+                   <p class=".modacontainer__input1"> <input type="text" placeholder="Nhập mã ngẫu nhiên/ Mã hiển thị bên phải" style="width: 100%; padding: 10px 0"></p>
+                   <p class=".modacontainer__input1"> <input type="text" placeholder="Nhập mã xác minh" style="width: 100%; padding: 10px 0"></p>
+                </div>
+                <div class="modacontainer__info--signup">
+                    <span class="modacontainer__infosignup">Bằng việc đăng ký, bạn đã đồng ý với Shopee về
+                        <a href="#">Chính sách bảo mật</a> và <a href="#">Điều khoản dịch vụ</a>
+                    </span>
+                </div>
+                <div class="modacontainer__nav">
+                    <button class="modacontainer__nav--buttonback">Trở lại</button>
+                    <button class="modacontainer__nav--button">Đăng ký</button>
+                </div>
+            </div>
+            <div class="modafooter">
+            <p> <i class="FACEBOOKsignup ti-facebook modafooter2"> <a href="#">Kết nối với Facebook</a> </i> </p>
+            <p> <i class="GOOGLEsignup ti-google modafooter2"> <a href="#">Kết nối với Google</a></i></p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="modasignin js__modal">
+        <div class="modalcard">
+            <div><i class="ti-close ti-close--button js__closesign"></i></div>
+            <div class="modaheader">
+                <h3 class="modaheader-item mainhead">ĐĂNG NHẬP</h3>
+                <h3 class="modaheader-item subhead">ĐĂNG KÝ
+                    </h3>
+                
+            </div>
+            <div class="modacontainer">
+                <div class="modacontainer__input">
+                   <p class=".modacontainer__input1"> <input type="text" placeholder="Email/Số điên thoại/Tên đăng nhập" style="width: 100%; padding: 10px 0"></p>
+                   <p class=".modacontainer__input1"> <input type="text" placeholder="Mật khẩu" style="width: 100%; padding: 10px 0"></p>
+                </div>
+                <div class="modacontainer__info">
+                    <span class="modacontainer__info1">Quên mật khẩu</span>
+                    <span class="modacontainer__info1">Cần trợ giúp</span>
+                </div>
+                <div class="modacontainer__nav">
+                    <button class="modacontainer__nav--buttonback">Trở lại</button>
+                    <button class="modacontainer__nav--button">Đăng nhập</button>
+                </div>
+            </div>
+            <div class="modafooter">
+            <p> <i class=" SMS ti-comments modafooter1"> <a href="#" class="color: #fff;">SMS</a></i></p>
+            <p> <i class="FACEBOOK ti-facebook modafooter1"> <a href="#">FACEBOOK</a></i></p>
+            <p> <i class="GOOGLE ti-google modafooter1"> <a href="#">GOOGLE</a></i></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        const ButtonSign = document.querySelector('.js__buttonsignin')
+        const Buttonclose = document.querySelector('.js__closesign')
+        const modal = document.querySelector('.js__modal')
+
+        function showButtonSign() {
+            modal.classList.add('open')
+        }
+        function hiddenButtonSign() {
+            modal.classList.remove('open')
+        }
+
+        ButtonSign.addEventListener ('click',showButtonSign)
+        Buttonclose.addEventListener ('click',hiddenButtonSign)
+    </script>
+
+<script>
+    const ButtonSignup = document.querySelector('.js__buttonsignup')
+    const Buttonclosesignup = document.querySelector('.js__closesignup')
+    const modalsignup = document.querySelector('.js__modasignup')
+
+    function showButtonSignup() {
+        modalsignup.classList.add('open')
+    }
+    function hiddenButtonSignup() {
+        modalsignup.classList.remove('open')
+    }
+
+    ButtonSignup.addEventListener ('click',showButtonSignup)
+    Buttonclosesignup.addEventListener ('click',hiddenButtonSignup)
+</script>
+
+</body>
+</html>
